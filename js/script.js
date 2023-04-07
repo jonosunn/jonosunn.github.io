@@ -40,10 +40,10 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', {origin:'top'});
-ScrollReveal().reveal('.home-img, .design-img, .about-container, .portfolio-box, .experience-container, .contact form', {origin:'bottom'});
-ScrollReveal().reveal('.home-content h1', {origin:'left'});
-ScrollReveal().reveal('.home-content p', {origin:'right'});
+ScrollReveal().reveal('.landing-content, .nav-content, .heading', {origin:'top'});
+ScrollReveal().reveal('.landing, .experience, .about-img, .design-img, .about-container, .portfolio-box, .experience-container, .contact form', {origin:'bottom'});
+ScrollReveal().reveal('.landing-content h1', {origin:'left'});
+ScrollReveal().reveal('.landing-content p', {origin:'right'});
 
 const typed = new Typed('.multiple-text', {
     strings: ['UI/UX Designer','Web Developer', 'Project Manager', 'Graphics Designer'],
